@@ -8,13 +8,15 @@
 
 **简单的demo：**
 
+![webrtc-simple.jpg](http://img.cdn.1zdz.cn/github/readme/webrtc-simple.jpg)
 
 **腾讯会议-山寨版：**
 
+![webrtc-meeting0.jpg](http://img.cdn.1zdz.cn/github/readme/webrtc-meeting0.jpg)
+![webrtc-meeting.jpg](http://img.cdn.1zdz.cn/github/readme/webrtc-meeting.jpg)
+## 一、项目文件
 
-## 项目文件
-
-### `/signal-server`: 信令服务器(nodejs)
+### 1.1 `/signal-server`: 信令服务器(nodejs)
 
 运行下面其中一个
 
@@ -37,7 +39,7 @@ node meeting.js
 浏览器打开：`https://你本机的ip:8443/`，点击高级选项，选择继续访问，然后就可以直接关闭这个页面了
 （这一步很重要，因为使用了自签名证书，浏览器不信任，这样操作后，就会让浏览器信任这个地址，接下来客户端需要用到这个地址）
 
-### `/webrtc-client/index.html`: 客户端(简单demo)
+### 1.2 `/webrtc-client/index.html`: 客户端(简单demo)
 
 编辑：`/webrtc-client/js/config.js`，将信令服务器替换为`wss://你本机的ip:8443/`
 
@@ -65,8 +67,8 @@ anywhere
 
 然后浏览器就会自动打开咱们的客户端。
 
-### `/webrtc-client/vue.html`: 客户端(腾讯会议-山寨版)
+### 1.3 `/webrtc-client/vue.html`: 客户端(腾讯会议-山寨版)
 
 编辑：`/webrtc-client/vue.html`，将信令服务器替换为`wss://你本机的ip:8443/`
 
-然后就可以像上面简单demo一样的启动了。
+然后按照上面的简单demo一样运行启动。
