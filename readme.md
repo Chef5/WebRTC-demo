@@ -4,6 +4,10 @@
 
 测试过成都市内、成都↔武汉、成都↔北京、成都↔沈阳，基本都成功进行了p2p视频通信！（有部分通信失败了，具体原因不明，应该是和通信商有关系吧）
 
+配套文章学习：https://www.zzboy.cn/Learning/eab52ad62fb2
+
+配套PPT演示文稿：https://pan.baidu.com/s/1TXrCi7lubkUGyhcIVz_Lhg 提取码: fm6h
+
 > 参考了[WebRtcRoomServer](https://github.com/qdgx/WebRtcRoomServer)
 
 **简单的demo：**
